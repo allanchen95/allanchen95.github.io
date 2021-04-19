@@ -1,1 +1,451 @@
-Hello World
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <meta name=viewport content="width=800">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+    
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+    
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+    
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 16px
+    }
+    
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 16px;
+    }
+    
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 24px;
+    }
+    
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 700
+    }
+    
+    venue {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-style: italic
+    }
+    
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 40px;
+    }
+
+    email {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 16px;
+    }
+    
+    
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
+    
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+    
+    span.highlight {
+      background-color: #ffffd0;
+    }
+  </style>
+  <!-- <link rel="icon" type="image/png" href="images/seal_icon.png"> -->
+  <title>Bo Chen</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="67%" valign="middle">
+              <p align="center">
+                <name>Bo Chen(陈波)</name>
+                <br>
+                <email>allanchen224 [at] gmail [dot] com</email>
+              </p>
+              <p>I am a first year PhD student at Knowledge Engineering Group(KEG), Department of Computer Science and Technology of Tsinghua Universiy, under the surpervision of <a href="http://keg.cs.tsinghua.edu.cn/jietang">Professor Jie Tang</a>. My research interests include data integration, name disambiguation and reasoning on KG.</p>
+              </p>
+              <p>WhoIsWho</p>
+              <p align=center>
+                <a href="mailto:allanchen224@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="https://github.com/allanchen95">Github</a>
+                <!--<a href="https://www.linkedin.com/in/---/">LinkedIn</a>-->
+              </p>
+            </td>
+            <td width="33%">
+              <img src="images/github_photo.png">
+            </td>
+          </tr>
+        </table>
+        <!--
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="100%" valign="middle">
+              <heading>Research</heading>
+              <p>
+                I'm interested in Natural Language Processing, Deep Learning and Computational Linguistics. Much of my research is about Natural Language Generation (mostly) and Natural Language Understanding (as a tool for better generation).
+              </p>
+              <p>
+                You can find some details in <a href="https://medium.com/@spsayakpaul/an-interview-with-thomas-wolf-chief-science-officer-at-hugging-face-ee585f782997">this interview I gave to PyImageSearch</a> or <a href="https://lionbridge.ai/articles/how-to-build-a-social-ai-an-interview-with-nlp-researcher-thomas-wolf/">this earlier interview I gave to LionBridge.AI</a> where I discuss the work we do at Huggingface, current trends in AI/NLP and my unusual background.
+              </p>
+            </td>
+          </tr>
+        </table>
+        -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>News</heading>
+            </td>
+          </tr>
+        </table>
+        <ul>
+            <li>On <strong>WhoIsWho</strong>, The world largest human-annotated name disambiguation dataset.
+        </ul>
+        <!--
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Blog</heading>
+              <p>
+                I like to explain clearly what I have learned and this has lead to a few blog posts that were quite interesting to other as well I guess (they totalise over a quarter million views at the end of 2018). I will try to continue writing things like that when I find the time. I used to be a teacher during my PhD and I do miss teaching. Blogging is my substitute.
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="images/training.jpeg" alt="Training Neural Nets on Larger Batches" width="160"></td>
+            <td width="75%" valign="center">
+              <p>
+                <a href="https://medium.com/huggingface/training-larger-batches-practical-tips-on-1-gpu-multi-gpu-distributed-setups-ec88c3e51255">
+                  <papertitle>💥 Training Neural Nets on Larger Batches: Practical Tips for 1-GPU, Multi-GPU & Distributed setups</papertitle>
+                </a>
+                <p>I've spent most of 2018 training models that could barely fit 1-4 samples/GPU.
+                  But SGD usually needs more than few samples/batch for decent results.
+                  I wrote a post gathering practical tips I use, from simple tricks to multi-GPU code & distributed setups</p>
+              </p>
+            </td>
+          </tr>
+        </table>
+        
+        
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr >
+            <td width="25%">
+              <div class="one">
+                <img src='images/meaning.jpeg'>
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://medium.com/huggingface/learning-meaning-in-natural-language-processing-the-semantics-mega-thread-9c0332dfe28e">
+                <papertitle>⛵ Learning Meaning in Natural Language Processing — The Semantics Mega-Thread</papertitle>
+              </a>
+              <p>A summary, overview and map of a huge discussion on learning meaning in NLP that happened on Twitter in August 2018 with more than a 100 comments and great inputs from Matt Gardner, Yoav Goldberg, Sam Bowman, Emily M. Bender, Graham Neubig, Jeremy Howard, Tal Linzen, Jacob Andreas, Ryan D. Cotterell ...</p>
+            </p>
+        </td>
+          </tr>
+
+          <tr >
+            <td width="25%">
+              <div class="one">
+                <img src='images/100_times.jpeg'>
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://medium.com/huggingface/100-times-faster-natural-language-processing-in-python-ee32033bdced">
+                <papertitle>🚀 100 Times Faster Natural Language Processing in Python</papertitle>
+              </a>
+              <p>How you can make your Python NLP module 50-100 times faster by use spaCy's internals and a bit of Cython magic! Womes with a Jupyter notebook with examples processing over 80 millions words per sec.
+                </p>
+            </p>
+        </td>
+          </tr>
+
+          <tr >
+            <td width="25%">
+              <div class="one">
+                <img src='images/words.png'>
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://medium.com/huggingface/universal-word-sentence-embeddings-ce48ddc8fc3a">
+                <papertitle>📚The Current Best of Universal Word Embeddings and Sentence Embeddings</papertitle>
+              </a>
+              <p>A post summarizing recent developments in Universal Word/Sentence Embeddings that happend over 2017/early-2018 and future trends. With ELMo, InferSent, Google's Universal Sentence embeddings, learning by multi-tasking... Written with <a href="https://twitter.com/SanhEstPasMoi">Victor Sanh</a>.
+                </p>
+            </p>
+        </td>
+          </tr>
+
+          <tr >
+            <td width="25%">
+              <div class="one">
+                <img src='images/meta_learning.jpeg'>
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a">
+                <papertitle>🐣 From zero to research — An introduction to Meta-learning</papertitle>
+              </a>
+              <p>To introduce <a href="https://arxiv.org/abs/1803.10631">the work we presented at ICLR 2018</a>, I drafted a visual & intuitive introduction to Meta-Learning. In this post, I start by explaining what’s meta-learning in a very visual and intuitive way. Then, we code a meta-learning model in PyTorch and I share some of the lessons learned on this project.
+                </p>
+            </p>
+        </td>
+          </tr>
+
+
+          <tr >
+            <td width="25%">
+              <div class="one">
+                <img src='images/train_coref.jpeg'>
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://medium.com/huggingface/how-to-train-a-neural-coreference-model-neuralcoref-2-7bb30c1abdfe">
+                <papertitle>✨How to train a neural coreference model— Neuralcoref 2</papertitle>
+              </a>
+              <p>A post describing the internals of <a href="https://github.com/huggingface/neuralcoref">NeuralCoref</a>. Neuralcoref is designed to strike a good balance between accuracy and speed/simplicity, using a rule-based mention detection module, a constrained number of features and a simple feed-forward neural network. This post describes how the coreference resolution system works and how to train it.
+            </p>
+        </td>
+          </tr>
+
+          <tr >
+            <td width="25%">
+              <div class="one">
+                <img src='images/emotions.jpeg'>
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://medium.com/huggingface/how-to-train-a-neural-coreference-model-neuralcoref-2-7bb30c1abdfe">
+                <papertitle>Understanding emotions — from Keras to pyTorch
+                </papertitle>
+              </a>
+              <p>A post accompanying our open-sourcing of <a href="https://github.com/huggingface/torchMoji">torchMoji</a>, a PyTorch adaptation of MIT's DeepMoji model. In this post, I detail several points that arose during the reimplementation of a Keras model in PyTorch: how to make a custom pyTorch LSTM with custom activation functions,
+                how the PackedSequence object works and is built,
+                how to convert an attention layer from Keras to pyTorch,
+                how to load your data in pyTorch: DataSets and smart Batching,
+                how to reproduce Keras weights initialization in pyTorch.
+                </p>
+            </p>
+        </td>
+          </tr>
+
+          <tr >
+            <td width="25%">
+              <div class="one">
+                <img src='images/sota_coref.jpeg'>
+              </div>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30">
+                <papertitle>State-of-the-art neural coreference resolution for chatbots
+                </papertitle>
+              </a>
+              <p>A post accompanying our open-sourcing of <a href="https://github.com/huggingface/neuralcoref">NeuralCoref</a>. It comprise an introduction to the field of co-reference resolution and describes how a coreference resolution system works in practice.
+                </p>
+            </p>
+        </td>
+          </tr>
+        </table>
+
+
+        -->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <heading>Open-sourced Projects</heading>
+              <p>
+                These few projects totalize a few thousand github stars and I am always happy when I see people coming with great PR on them to share their developments and ideas.
+              </p>
+              </td>
+          </tr>
+        </table>
+        <!--
+        <table width="100%" align="center" border="0" cellpadding="20">
+          <tr>
+            <td width="25%"><img src="images/sandbox.jpg" alt="sandbox"></td>
+            <td width="75%" valign="top">
+              <p>
+                <a href="https://github.com/thomwolf/Magic-Sand">
+                  <papertitle>Magic Sandbox</papertitle>
+                </a>
+                <p>
+                  Magic Sand is a software for operating an augmented reality sandbox like the <a href="https://arsandbox.ucdavis.edu/">Augmented Reality Sandbox</a> developped by UC Davis. This project comprises the C++ codebase build on <a href="">OpenFrameWorks</a> and a <a href="https://imgur.com/gallery/Q86wR">tutorial</a> to build the hardware (see also the associated <a href="https://www.reddit.com/r/DIY/comments/4v1gfi/a_magic_sandbox_i_made_for_my_3_yo_sons_birthday/">reddit thread</a>)
+                </p>
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td width="25%"><img src="images/neuralcoref.png"></td>
+            <td width="75%" valign="top">
+              <p>
+                <a href="https://github.com/huggingface/neuralcoref">
+                  <papertitle>✨NeuralCoref: Coreference Resolution in spaCy with Neural Networks.</papertitle>
+                </a>
+                <p>
+NeuralCoref is a pipeline extension for spaCy 2.0 that annotates and resolves coreference clusters using a neural network. NeuralCoref is production-ready, integrated in spaCy's NLP pipeline and easily extensible to new training datasets.
+                </p>
+                <p>
+NeuralCoref is written in Cython & Python and comes with pre-trained statistical models for English. It can be trained in other languages.
+                </p>
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td width="25%"><img src="images/torchmoji.jpeg"></td>
+            <td width="75%" valign="top">
+              <p>
+                <a href="https://github.com/huggingface/torchMoji">
+                  <papertitle>😇 TorchMoji</papertitle>
+                </a>
+                <p>
+                  TorchMoji is a pyTorch implementation of the <a href="https://github.com/bfelbo/DeepMoji">DeepMoji</a> model developped by Bjarke Felbo, Alan Mislove, Anders Søgaard, Iyad Rahwan and Sune Lehmann.
+
+                  This model trained on 1.2 billion tweets with emojis to understand how language is used to express emotions. Through transfer learning the model can obtain state-of-the-art performance on many emotion-related text modeling tasks. See the <a href="https://arxiv.org/abs/1708.00524">paper</a> for more details.
+                  
+                                  </p>
+              </p>
+            </td>
+          </tr>
+
+        <tr>
+          <td width="25%"><img src="images/openai_gpt.png"></td>
+          <td width="75%" valign="top">
+            <p>
+              <a href="https://github.com/huggingface/pytorch-openai-transformer-lm">
+                <papertitle>PyTorch implementation of OpenAI's Finetuned Transformer Language Model.</papertitle>
+              </a>
+              <p>
+                A PyTorch implementation of the <a href="https://github.com/openai/finetune-transformer-lm">TensorFlow code</a> provided with OpenAI's paper <a href="https://blog.openai.com/language-unsupervised">Improving Language Understanding by Generative Pre-Training</a> by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.
+
+                This implementation comprises a script to load in the PyTorch model the weights pre-trained by the authors with the TensorFlow implementation.
+                
+              </p>
+            </p>
+          </td>
+        </tr>
+  
+        
+        <tr>
+          <td width="25%"><img src="images/alien-monster.png"></td>
+          <td width="75%" valign="top">
+            <p>
+              <a href="https://github.com/huggingface/pytorch-transformers">
+                <papertitle>PyTorch Transformers.</papertitle>
+              </a>
+              <p>
+                PyTorch-Transformers (formerly known as pytorch-pretrained-bert) is a library of state-of-the-art pre-trained models for Natural Language Processing (NLP).
+              </p>
+            </p>
+          </td>
+        </tr>
+
+      </table>
+      -->
+      
+
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td>
+            <heading>Publications</heading>
+          </td>
+        </tr>
+      </table>
+      <!--
+      <table width="100%" align="center" border="0" cellpadding="20">
+        <tr>
+            <td width="25%"><img src="images/paper.png"></td>
+            <td width="75%" valign="top">
+              <p>
+                <a href="https://www.aclweb.org/anthology/N19-5004">
+                  <papertitle>Transfer Learning in Natural Language Processing</papertitle>
+                </a>
+                <br>
+                Sebastian Ruder, Matthew E Peters, Swabha Swayamdipta, <strong>Thomas Wolf</strong> (all authors contributed equally)
+                <br>
+                <venue>NAACL 2019 (Tutorial)</venue>
+                  <p>
+                  <br> The classic supervised machine learning paradigm is based on learning in isolation, a single predictive model for a task using a single dataset. This approach requires a large number of training examples and performs best for well-defined and narrow tasks. Transfer learning refers to a set of methods that extend this approach by leveraging data from additional domains or tasks to train a model with better generalization properties. Over the last two years, the field of Natural Language Processing (NLP) has witnessed the emergence of several transfer learning methods and architectures which significantly improved upon the state-of-the-art on a wide range of NLP tasks. These improvements together with the wide availability and ease of integration of these methods are reminiscent of the factors that led to the success of pretrained word embeddings and ImageNet pretraining in computer vision, and indicate that these methods will likely become a common tool in the NLP landscape as well as an important research direction. We will present an overview of modern transfer learning methods in NLP, how models are pre-trained, what information the representations they learn capture, and review examples and case studies on how these models can be integrated and adapted in downstream NLP tasks.
+                </p>
+              </p>
+            </td>
+          </tr>
+      </table>
+      -->
+
+
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td>
+              <br>
+              <p align="right">
+                <font size="2">
+                  <a href="https://github.com/jonbarron/jonbarron_website"><strong>Created from Jonathan T. Barron's template</strong></a>
+                  </font>
+              </p>
+            </td>
+          </tr>
+        </table>
+        <script type="text/javascript">
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+          try {
+            var pageTracker = _gat._getTracker("UA-7580334-1");
+            pageTracker._trackPageview();
+          } catch (err) {}
+        </script>
+        </td>
+    </tr>
+  </table>
+</body>
+
+</html>
