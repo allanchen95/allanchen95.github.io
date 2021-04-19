@@ -85,6 +85,18 @@
     span.highlight {
       background-color: #ffffd0;
     }
+    .avatar{
+        margin-top: 50px; 
+        width:200px; 
+        height:200px; 
+        border-radius:200px; 
+    }
+
+    .vaniila_image{
+        width:200px; 
+        height:200px;
+    }
+
   </style>
   <!-- <link rel="icon" type="image/png" href="images/seal_icon.png"> -->
   <title>Bo Chen</title>
@@ -98,23 +110,23 @@
       <td>
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
-            <td width="75%" valign="middle">
+            <td width="70%" valign="middle">
               <p align="center">
-                <name>Bo Chen(陈波)</name>
+                <name>Bo Chen (陈波)</name>
                 <br>
                 <email>allanchen224 [at] gmail [dot] com</email>
+                <p align=center>
+                  <a href="mailto:allanchen224@gmail.com">Email</a> &nbsp/&nbsp
+                  <a href="https://github.com/allanchen95">Github</a>
+                  <!--<a href="https://www.linkedin.com/in/---/">LinkedIn</a>-->
+                </p>
               </p>
-              <p>I am a first year PhD student at Knowledge Engineering Group(KEG), Department of Computer Science and Technology of Tsinghua Universiy, under the surpervision of <a href="http://keg.cs.tsinghua.edu.cn/jietang">Professor Jie Tang</a>. My research interests include data integration, name disambiguation and reasoning on KG.</p>
-              </p>
-              <p>WhoIsWho</p>
-              <p align=center>
-                <a href="mailto:allanchen224@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="https://github.com/allanchen95">Github</a>
-                <!--<a href="https://www.linkedin.com/in/---/">LinkedIn</a>-->
+              <p>I am now a first year PhD student at Knowledge Engineering Group(KEG), Department of Computer Science and 
+                Technology of Tsinghua Universiy, under the surpervision of <a href="http://keg.cs.tsinghua.edu.cn/jietang">Prof. Jie Tang</a>. My research interests include data integration, name disambiguation and reasoning on KG.</p>
               </p>
             </td>
-            <td width="25%">
-              <img src="images/github_photo.png" class="avatar-img" alt width="200px">
+            <td width="30%">
+              <img src="images/github_photo.png" class="avatar">
             </td>
           </tr>
         </table>
@@ -140,9 +152,13 @@
             </td>
           </tr>
         </table>
+        
         <ul>
-            <li>On <strong>WhoIsWho</strong>, The world largest human-annotated name disambiguation dataset.
+            <li>on <strong>May, 2021</strong>, 
+              We will hold the name disambiguation competition at IJCAI'21 Competition Track based on the newly-released version(na-v3) of 
+              <a href="https://www.aminer.cn/whoiswho">WhoIsWho</a> dataset. We honestly invite all the researchers of interest to attend our competition!       
         </ul>
+       
         <!--
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
@@ -296,98 +312,27 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td>
-              <heading>Open-sourced Projects</heading>
-              <p>
-                These few projects totalize a few thousand github stars and I am always happy when I see people coming with great PR on them to share their developments and ideas.
-              </p>
-              </td>
+              <heading>Preprints</heading>
+            </td>
           </tr>
         </table>
-        <!--
+        
         <table width="100%" align="center" border="0" cellpadding="20">
           <tr>
-            <td width="25%"><img src="images/sandbox.jpg" alt="sandbox"></td>
-            <td width="75%" valign="top">
-              <p>
-                <a href="https://github.com/thomwolf/Magic-Sand">
-                  <papertitle>Magic Sandbox</papertitle>
-                </a>
+              <td width="25%"><img width="100%" src="images/coad.png"></td>
+              <td width="75%" valign="top">
                 <p>
-                  Magic Sand is a software for operating an augmented reality sandbox like the <a href="https://arsandbox.ucdavis.edu/">Augmented Reality Sandbox</a> developped by UC Davis. This project comprises the C++ codebase build on <a href="">OpenFrameWorks</a> and a <a href="https://imgur.com/gallery/Q86wR">tutorial</a> to build the hardware (see also the associated <a href="https://www.reddit.com/r/DIY/comments/4v1gfi/a_magic_sandbox_i_made_for_my_3_yo_sons_birthday/">reddit thread</a>)
+                  <a href="data/coad.pdf">
+                    <papertitle>COAD: Contrastive Pre-training with Adversarial Fine-tuning for Zero-shot Expert Linking</papertitle>
+                  </a>
+                  <br>
+                  <strong>Bo Chen</strong>, Jing Zhang, Xiaokang Zhang, Xiaobin Tang, Lingfan Cai, Hong Chen, Cuiping Li, Peng Zhang, Jie Tang
+                  <br>
+                  <venue> <a herf = "https://arxiv.org/abs/2012.11336">Arxiv</a></venue>
                 </p>
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td width="25%"><img src="images/neuralcoref.png"></td>
-            <td width="75%" valign="top">
-              <p>
-                <a href="https://github.com/huggingface/neuralcoref">
-                  <papertitle>✨NeuralCoref: Coreference Resolution in spaCy with Neural Networks.</papertitle>
-                </a>
-                <p>
-NeuralCoref is a pipeline extension for spaCy 2.0 that annotates and resolves coreference clusters using a neural network. NeuralCoref is production-ready, integrated in spaCy's NLP pipeline and easily extensible to new training datasets.
-                </p>
-                <p>
-NeuralCoref is written in Cython & Python and comes with pre-trained statistical models for English. It can be trained in other languages.
-                </p>
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td width="25%"><img src="images/torchmoji.jpeg"></td>
-            <td width="75%" valign="top">
-              <p>
-                <a href="https://github.com/huggingface/torchMoji">
-                  <papertitle>😇 TorchMoji</papertitle>
-                </a>
-                <p>
-                  TorchMoji is a pyTorch implementation of the <a href="https://github.com/bfelbo/DeepMoji">DeepMoji</a> model developped by Bjarke Felbo, Alan Mislove, Anders Søgaard, Iyad Rahwan and Sune Lehmann.
-
-                  This model trained on 1.2 billion tweets with emojis to understand how language is used to express emotions. Through transfer learning the model can obtain state-of-the-art performance on many emotion-related text modeling tasks. See the <a href="https://arxiv.org/abs/1708.00524">paper</a> for more details.
-                  
-                                  </p>
-              </p>
-            </td>
-          </tr>
-
-        <tr>
-          <td width="25%"><img src="images/openai_gpt.png"></td>
-          <td width="75%" valign="top">
-            <p>
-              <a href="https://github.com/huggingface/pytorch-openai-transformer-lm">
-                <papertitle>PyTorch implementation of OpenAI's Finetuned Transformer Language Model.</papertitle>
-              </a>
-              <p>
-                A PyTorch implementation of the <a href="https://github.com/openai/finetune-transformer-lm">TensorFlow code</a> provided with OpenAI's paper <a href="https://blog.openai.com/language-unsupervised">Improving Language Understanding by Generative Pre-Training</a> by Alec Radford, Karthik Narasimhan, Tim Salimans and Ilya Sutskever.
-
-                This implementation comprises a script to load in the PyTorch model the weights pre-trained by the authors with the TensorFlow implementation.
-                
-              </p>
-            </p>
-          </td>
-        </tr>
-  
-        
-        <tr>
-          <td width="25%"><img src="images/alien-monster.png"></td>
-          <td width="75%" valign="top">
-            <p>
-              <a href="https://github.com/huggingface/pytorch-transformers">
-                <papertitle>PyTorch Transformers.</papertitle>
-              </a>
-              <p>
-                PyTorch-Transformers (formerly known as pytorch-pretrained-bert) is a library of state-of-the-art pre-trained models for Natural Language Processing (NLP).
-              </p>
-            </p>
-          </td>
-        </tr>
-
-      </table>
-      -->
-      
+              </td>
+            </tr>
+        </table>
 
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
@@ -397,28 +342,151 @@ NeuralCoref is written in Cython & Python and comes with pre-trained statistical
           </td>
         </tr>
       </table>
-      <!--
+      
       <table width="100%" align="center" border="0" cellpadding="20">
         <tr>
-            <td width="25%"><img src="images/paper.png"></td>
+          <td width="25%"><img width="100%" src="images/Neuro_symblic_reasoning.png"></td>
+          <td width="75%" valign="top">
+            <p>
+              <a href="data/Neuro_symblic_reasoning_Ai_open'21.pdf">
+                <papertitle>Neural, Symbolic and Neural-Symbolic Reasoning on Knowledge Graphs</papertitle>
+              </a>
+              <br>
+              Jing Zhang, <strong>Bo Chen</strong>, Lingxi Zhang, Xirui Ke, Haipeng Ding
+              <br>
+              <venue> <a herf = "http://www.keaipublishing.com/en/journals/ai-open/">AI Open Journal</a>, 2021</venue>
+            </p>
+          </td>
+        </tr>
+        <tr>
+            <td width="25%"><img width="100%" src="images/conna.png"></td>
             <td width="75%" valign="top">
               <p>
-                <a href="https://www.aclweb.org/anthology/N19-5004">
-                  <papertitle>Transfer Learning in Natural Language Processing</papertitle>
+                <a href="data/CONNA_TKDE'20.pdf">
+                  <papertitle>CONNA: Addressing Name Disambiguation on The Fly</papertitle>
                 </a>
                 <br>
-                Sebastian Ruder, Matthew E Peters, Swabha Swayamdipta, <strong>Thomas Wolf</strong> (all authors contributed equally)
+                <strong>Bo Chen</strong>, Jing Zhang, Jie Tang, Lingfan Cai, Zhaoyu Wang, Shu Zhao, Hong Chen and Cuiping Li.
                 <br>
-                <venue>NAACL 2019 (Tutorial)</venue>
-                  <p>
-                  <br> The classic supervised machine learning paradigm is based on learning in isolation, a single predictive model for a task using a single dataset. This approach requires a large number of training examples and performs best for well-defined and narrow tasks. Transfer learning refers to a set of methods that extend this approach by leveraging data from additional domains or tasks to train a model with better generalization properties. Over the last two years, the field of Natural Language Processing (NLP) has witnessed the emergence of several transfer learning methods and architectures which significantly improved upon the state-of-the-art on a wide range of NLP tasks. These improvements together with the wide availability and ease of integration of these methods are reminiscent of the factors that led to the success of pretrained word embeddings and ImageNet pretraining in computer vision, and indicate that these methods will likely become a common tool in the NLP landscape as well as an important research direction. We will present an overview of modern transfer learning methods in NLP, how models are pre-trained, what information the representations they learn capture, and review examples and case studies on how these models can be integrated and adapted in downstream NLP tasks.
-                </p>
+                <venue> <a herf = "https://www.computer.org/csdl/journal/tk">IEEE Transaction on Knowledge and Data Engineering (TKDE)</a>, 2020</venue>, [<a href="https://github.com/allanchen95/TKDE-2019-CONNA">Github</a>]
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="25%"><img width="100%" src="images/Bert_int.png"></td>
+            <td width="75%" valign="top">
+              <p>
+                <a href="data/Bert_int_ijcai'20.pdf">
+                  <papertitle>BERT-INT:A BERT-based Interaction Model For Knowledge Graph Alignment</papertitle>
+                </a>
+                <br>
+                Xiaobin Tang, Jing Zhang, <strong>Bo Chen</strong>, Yang Yang, Hong Chen, Cuiping Li
+                <br>
+                <venue> <a herf = "https://ijcai20.org/">International Joint Conference on Artificial Intelligence (IJCAI)</a>, 2020</venue>, [<a href="https://github.com/kosugi11037/bert-int">Github</a>]
+                <br>
+                (Full Paper, acceptance rate: 12.6%)
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="25%"><img width="100%" src="images/jarka.png"></td>
+            <td width="75%" valign="top">
+              <p>
+                <a href="data/jarka_PAKDD'20.pdf">
+                  <papertitle>JarKA: Modeling Attribute Interactions for Cross-lingual Knowledge Alignment</papertitle>
+                </a>
+                <br>
+                <strong>Bo Chen</strong>, Jing Zhang, Xiaobin Tang, Hong Chen, and Cuiping Li
+                <br>
+                <venue> <a herf = "http://www.pakdd2020.org/"> Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)</a>, 2020</venue>, [<a href="https://github.com/allanchen95/PAKDD-20-JarKA">Github</a>]
+                <br>
+                (Full Paper, acceptance rate: 21%)
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="25%"><img width="100%" src="images/hrl.png"></td>
+            <td width="75%" valign="top">
+              <p>
+                <a href="data/HRL_AAAI'19.pdf">
+                  <papertitle>Hierarchical Reinforcement Learning for Course Recommendation in MOOCs</papertitle>
+                </a>
+                <br>
+                Jing Zhang, Bowen Hao, <strong>Bo Chen</strong>, Cuiping Li, Hong Chen and Jimeng Sun
+                <br>
+                <venue> <a herf = "https://aaai.org/Conferences/AAAI-19/"> AAAI Conference on Artificial Intelligence (AAAI)</a>, 2019</venue>, [<a href="https://github.com/jerryhao66/HRL">Github</a>]
+                <br>
+                (Full Paper, acceptance rate: 16.2%)
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td width="25%"><img width="100%" src="images/mego2vec.png"></td>
+            <td width="75%" valign="top">
+              <p>
+                <a href="data/mego2vec_cikm'18.pdf">
+                  <papertitle>MEgo2Vec: Embedding Matched Ego Networks for User Alignment Across Social Networks</papertitle>
+                </a>
+                <br>
+                Jing Zhang, <strong>Bo Chen</strong>, Xianming Wang, Hong Chen, Cuiping Li, Fengmei Jin, Guojie Sone, Yutao Zhang
+                <br>
+                <venue> <a herf = "https://www.cikm2018.units.it/"> International Conference on Information and Knowledge Management (CIKM)</a>, 2018</venue>, [<a href="https://github.com/allanchen95/MEgo2Vec-Embedding-Matched-Ego-Networks-for-User-Alignment-Across-Social-Networks">Github</a>]
+                <br>
+                (Full Paper, acceptance rate: 17%)
               </p>
             </td>
           </tr>
       </table>
-      -->
 
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td>
+            <heading>Projects</heading>
+            <p>
+              These are some open-sourced projects.
+            </p>
+            </td>
+        </tr>
+      </table>
+      
+      <table width="100%" align="center" border="0" cellpadding="20">
+        <tr>
+          <!-- <td width="25%"><img src="images/sandbox.jpg" alt="sandbox"></td> -->
+          <td width="75%" valign="top">
+            <p>
+              <a href="https://www.aminer.cn/whoiswho">
+                <papertitle>WhoIsWho</papertitle>
+              </a>
+              <p>
+                WhoIsWho is the world’s largest manually-labeled paper name disambiguation(NA) benchmark up to now, which consists about 
+                <b>900,000+</b> papers belonging to <b>70,000+</b> authors, <b>1,000+</b> names, and we also comprehensively define 
+                two basic tasks, Continuous Name Disambiguation and Name disambiguation from Scatch in NA domain with corresponding SOTA baselines.
+                (see deatils <a href="https://www.aminer.cn/whoiswho">WhoIsWho</a>).
+              </p>
+            </p>
+          </td>
+        </tr>
+    </table>
+   
+
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td>
+            <heading>Education</heading>
+          </td>
+        </tr>
+      </table>
+      
+      <ul>
+          <li><strong>September, 2013 - June, 2017</strong>, Bachelor, Department of Computer Science and Technology, 
+            Information School, Renmin University of China.
+          <li><strong>September, 2017 - June, 2020</strong>, Master, Department of Computer Science and Technology, 
+            Information School, Renmin University of China, under the surpervision of <a href="https://xiaojingzi.github.io/">Associate Prof. Jing Zhang</a> and <a href = "http://info.ruc.edu.cn/academic_professor.php?teacher_id=56">Prof. Hong Chen</a>.
+          <li><strong>September, 2021 - </strong>, PhD, Department of Computer Science and Technology, Tsinghua Universiy, 
+            under the surpervision of <a href="http://keg.cs.tsinghua.edu.cn/jietang">Prof. Jie Tang</a>.                 
+      </ul>
 
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
